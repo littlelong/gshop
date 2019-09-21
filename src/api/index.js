@@ -20,3 +20,9 @@ export const reqSmsLogin = (phone, code) => ajax(BASE_URL+'/login_sms', {phone, 
 export const reqUserInfo = () => ajax(BASE_URL+'/userinfo')
 // 10、用户登出
 export const reqLogout = () => ajax(BASE_URL+'/logout')
+
+export const reqShopInfo = () => ajax('/info')
+
+export const reqShopRatings = () => ajax('/ratings')
+
+export const reqShopGoods = () => ajax('/goods')
